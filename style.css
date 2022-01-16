@@ -1,0 +1,64 @@
+body {
+    background:url('bg.png') center center no-repeat;
+    background-size: cover;
+}
+
+.contanier {
+        text-align: center;
+}
+table {
+    margin: auto;
+    padding: 30px;
+}
+h1 {
+    font-size: 300px;
+    margin: 0px;
+    padding: auto;
+}
+input {
+    font-size: 40px;
+    height: 300px;
+    width: 1060px;
+    text-align: right;
+    font-size: 150px;
+    border: 10px solid blue;
+    border-radius: 40px;
+    background-color: rgb(201, 205, 206);
+    color: rgb(10, 10, 10);
+    text-decoration-color: brown;
+}
+button {
+    font-size: 100px;
+    margin: 8px;
+    background-color: aqua;
+    padding: 0px;
+    width: 250px;
+    height: 220px;
+    border-radius: 70px;
+}
+.calcu {
+    display: inline-block;
+    border-radius: 300px;
+    background-color: rgb(32, 247, 3);
+    padding: 150px;
+}
+.bg {
+    background-image: url("bg.png");
+    
+
+}
+ #plus {
+    height: 450px;
+}
+#equal {
+    width: 500px;
+    padding:0px;
+}
+button:active {
+    background:rgb(250, 68, 2);
+    transform: scale(0.8);
+}
+button:hover {
+    background: #367af7;;
+}
+
